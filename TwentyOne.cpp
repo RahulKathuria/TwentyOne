@@ -4,6 +4,33 @@
 
 using namespace std;
 main(){
-for(int i=1;i<25;i++)
-cout<<rand()%2+1<<endl;
+    char ch;
+    int count=0;
+cout<<" Press any character(min-> 1 , Max-> 3)";
+for(int i=0;i<3;i++){
+    cin>>ch;
+    if(ch=='a'){
+
+        break;
+
+    }
+    count++;
+    cout<<count;
+}
+if(count==1){
+        cout<<endl<<"Cpu's Turn"<<endl;
+        cout<<++count;
+        cout<<++count;
+        cout<<++count;}
+if(count==2){
+        cout<<endl<<"Cpu's Turn"<<endl;
+        cout<<++count;
+        cout<<++count;
+       }
+ if(count==3){
+        cout<<endl<<"Cpu's Turn"<<endl;
+        cout<<++count;
+        }
+
+
 }
