@@ -1,6 +1,7 @@
 #include<iostream>
 #include<cstdlib>
 #include<time.h>
+#include<conio.h>
 using namespace std;
 void delay(unsigned int mseconds)
 {
@@ -8,22 +9,48 @@ void delay(unsigned int mseconds)
     while (goal > clock());
 }
 main(){
-    char ch;
-    int count=0;
-cout<<" Press any character(min-> 1 , Max-> 3)";
+     char ch;
+    int count =0;
+    cout<<" Press any character(min-> 1 , Max-> 3)";
 for(int i=0;i<3;i++){
-    cin>>ch;
-    if(ch=='a'){
+ ch=getch();
+ if(ch=='\r'){
+    break;
+ }
 
-        break;
 
-    }
+
     count++;
     delay(300);
     cout<<count;
 }
 if(count==1){
-        cout<<endl<<"Cpu's Turn"<<endl;
+         cout<<endl<<"C";
+        delay(200);
+        cout<<"p";
+        delay(200);
+        cout<<"u";
+        delay(200);
+        cout<<"'s";
+        delay(200);
+        cout<<" ";
+        delay(200);
+        cout<<"T";
+        delay(200);
+        cout<<"u";
+        delay(200);
+        cout<<"r";
+        delay(200);
+        cout<<"n";
+        delay(200);
+        cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
         delay(300);
         cout<<++count;
         delay(300);
@@ -31,7 +58,32 @@ if(count==1){
         delay(300);
         cout<<++count;}
 if(count==2){
-        cout<<endl<<"Cpu's Turn"<<endl;
+        cout<<endl<<"C";
+        delay(200);
+        cout<<"p";
+        delay(200);
+        cout<<"u";
+        delay(200);
+        cout<<"'s";
+        delay(200);
+        cout<<" ";
+        delay(200);
+        cout<<"T";
+        delay(200);
+        cout<<"u";
+        delay(200);
+        cout<<"r";
+        delay(200);
+        cout<<"n";
+        delay(200);
+        cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
         delay(300);
         cout<<++count;
         delay(300);
@@ -65,7 +117,6 @@ if(count==2){
         delay(200);
          cout<<".";
         delay(200);
-
         delay(300);
         cout<<++count;
         delay(300);
