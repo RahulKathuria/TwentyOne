@@ -50,11 +50,11 @@ if(count==1){
          cout<<".";
         delay(200);
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
-        cout<<++count;}
+        cout<<++count<<" ";}
 if(count==2){
         cout<<endl<<"C";
         delay(200);
@@ -83,9 +83,9 @@ if(count==2){
          cout<<".";
         delay(200);
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
        }
  if(count==3){
@@ -116,7 +116,7 @@ if(count==2){
          cout<<".";
         delay(200);
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);}
 
 
@@ -155,7 +155,7 @@ for(int i=0;i<3;i++){
 
     count++;
     delay(300);
-    cout<<count;
+    cout<<" "<<count<<" ";
 }
 if(count==5){
          cout<<endl<<"C";
@@ -185,11 +185,11 @@ if(count==5){
          cout<<".";
         delay(200);
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
-        cout<<++count;}
+        cout<<++count<<" ";}
 if(count==6){
         cout<<endl<<"C";
         delay(200);
@@ -218,9 +218,9 @@ if(count==6){
          cout<<".";
         delay(200);
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
        }
  if(count==7){
@@ -251,7 +251,7 @@ if(count==6){
          cout<<".";
         delay(200);
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
         }
 
@@ -291,7 +291,7 @@ for(int i=0;i<3;i++){
 
     count++;
     delay(300);
-    cout<<count;
+    cout<<count<<" ";
 }
 if(count==9){
          cout<<endl<<"C";
@@ -321,11 +321,11 @@ if(count==9){
          cout<<".";
         delay(200);
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
-        cout<<++count;}
+        cout<<++count<<" ";}
 if(count==10){
         cout<<endl<<"C";
         delay(200);
@@ -354,9 +354,9 @@ if(count==10){
          cout<<".";
         delay(200);
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
        }
  if(count==11){
@@ -387,7 +387,7 @@ if(count==10){
          cout<<".";
         delay(200);
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
 
  }
@@ -425,7 +425,7 @@ for(int i=0;i<3;i++){
 
     count++;
     delay(300);
-    cout<<count;
+    cout<<count<<" ";
 }
 if(count==13){
          cout<<endl<<"C";
@@ -455,11 +455,11 @@ if(count==13){
          cout<<".";
         delay(200);
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
-        cout<<++count;}
+        cout<<++count<<" ";}
 if(count==14){
         cout<<endl<<"C";
         delay(200);
@@ -488,9 +488,9 @@ if(count==14){
          cout<<".";
         delay(200);
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
        }
  if(count==15){
@@ -521,7 +521,7 @@ if(count==14){
          cout<<".";
         delay(200);
         delay(300);
-        cout<<++count;
+        cout<<++count<<" ";
         delay(300);
 
  }
@@ -551,6 +551,142 @@ cout<<endl<<"Y";
         delay(200);
          cout<<".";
         delay(200);
+
+for(int i=0;i<3;i++){
+ ch=getch();
+ if(ch=='\r'){
+    break;
+ }
+
+    count++;
+    delay(300);
+    cout<<count<<" ";
+}
+if(count==17){
+         cout<<endl<<"C";
+        delay(200);
+        cout<<"p";
+        delay(200);
+        cout<<"u";
+        delay(200);
+        cout<<"'s";
+        delay(200);
+        cout<<" ";
+        delay(200);
+        cout<<"T";
+        delay(200);
+        cout<<"u";
+        delay(200);
+        cout<<"r";
+        delay(200);
+        cout<<"n";
+        delay(200);
+        cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+        delay(300);
+        cout<<++count<<" ";
+        delay(300);
+        cout<<++count<<" ";
+        delay(300);
+        cout<<++count<<" ";}
+if(count==18){
+        cout<<endl<<"C";
+        delay(200);
+        cout<<"p";
+        delay(200);
+        cout<<"u";
+        delay(200);
+        cout<<"'s";
+        delay(200);
+        cout<<" ";
+        delay(200);
+        cout<<"T";
+        delay(200);
+        cout<<"u";
+        delay(200);
+        cout<<"r";
+        delay(200);
+        cout<<"n";
+        delay(200);
+        cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+        delay(300);
+        cout<<++count<<" ";
+        delay(300);
+        cout<<++count<<" ";
+        delay(300);
+       }
+ if(count==19){
+        cout<<endl<<"C";
+        delay(200);
+        cout<<"p";
+        delay(200);
+        cout<<"u";
+        delay(200);
+        cout<<"'s";
+        delay(200);
+        cout<<" ";
+        delay(200);
+        cout<<"T";
+        delay(200);
+        cout<<"u";
+        delay(200);
+        cout<<"r";
+        delay(200);
+        cout<<"n";
+        delay(200);
+        cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+        delay(300);
+        cout<<++count<<" ";
+        delay(300);
+
+ }
+cout<<endl<<"Y";
+        delay(200);
+        cout<<"o";
+        delay(200);
+        cout<<"u";
+        delay(200);
+        cout<<"r";
+        delay(200);
+        cout<<" ";
+        delay(200);
+        cout<<"T";
+        delay(200);
+        cout<<"u";
+        delay(200);
+        cout<<"r";
+        delay(200);
+        cout<<"n";
+        delay(200);
+        cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+         cout<<".";
+        delay(200);
+        cout<<"OOOOOOPPPPPSSSSSSSS,Hhahahaha!!!!";
 
 
 
