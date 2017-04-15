@@ -686,7 +686,7 @@ cout<<endl<<"Y";
         delay(200);
          cout<<".";
         delay(200);
-        cout<<"OOOOOOPPPPPSSSSSSSS,Hhahahaha!!!!";
+        cout<<"OOOOOOPPPPPSSSSSSSS!";
 
 
 
