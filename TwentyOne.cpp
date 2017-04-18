@@ -10,7 +10,8 @@ void delay(unsigned int mseconds)
 }
 main(){
      char ch;
-    int count =0;
+    int count =0,input;
+    x:
     cout<<" Press any character(min-> 1 , Max-> 3)";
 for(int i=0;i<3;i++){
  ch=getch();
@@ -686,7 +687,10 @@ cout<<endl<<"Y";
         delay(200);
          cout<<".";
         delay(200);
-        cout<<"OOOOOOPPPPPSSSSSSSS!";
+        cout<<"You Lost the game"<<endl<<"press 1 to try again";
+        cin>>input;
+        if(input==1)
+        goto x;
 
 
 
