@@ -10,7 +10,11 @@ void delay(unsigned int mseconds)
 }
 main(){
      char ch;
-    int count =0,input;
+    int count =0,input,value;
+    cout<<"Press 1 for  user's turn first"<<endl;
+    cout<<"press 0 for cpu's turn first"<<endl;
+    cin>>value;
+    if(value==0){
     x:
     cout<<" Press any character(min-> 1 , Max-> 3)";
 for(int i=0;i<3;i++){
@@ -691,6 +695,8 @@ cout<<endl<<"Y";
         cin>>input;
         if(input==1)
         goto x;
+    }
+    else cout<<"Coming soon...";
 
 
 
