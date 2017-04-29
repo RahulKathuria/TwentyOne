@@ -139,12 +139,10 @@ int counter3(int count){
     }
 main(){
      char ch;
-    int count =0,input,value;
-    cout<<"Press 1 for  cpu's turn first"<<endl;
-    cout<<"press 0 for user's turn first"<<endl;
-    cin>>value;
-    if(value==0){
+
     x:
+        int count =0,input;
+
     cout<<" Press any character(min-> 1 , Max-> 3)";
 for(int i=0;i<3;i++){
  ch=getch();
@@ -157,7 +155,7 @@ for(int i=0;i<3;i++){
     cout<<count;
 }
 if(count==1){
-        count = counter1(count);
+         count = counter1(count);
          }
 if(count==2){
         count = counter2(count);
@@ -207,10 +205,13 @@ if(count==10){
        count = counter2(count);
        }
  if(count==11){
+
        count = counter3(count);
 
  }
 print();
+
+
 for(int i=0;i<3;i++){
  ch=getch();
  if(ch=='\r'){
@@ -227,6 +228,8 @@ if(count==14){
        count = counter2(count);
        }
  if(count==15){
+
+
        count =counter3(count);
 
  }
@@ -248,16 +251,20 @@ if(count==18){
        count =counter2(count);
        }
  if(count==19){
+
+
        count = counter3(count);
 
  }
+
 print();
+ch=getch();
         cout<<"You Lost the game"<<endl<<"press 1 to try again";
         cin>>input;
         if(input==1)
         goto x;
-    }
-    else cout<<"Coming soon...";
+
+
 
 
 
