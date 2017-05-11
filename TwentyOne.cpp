@@ -1,6 +1,7 @@
 #include<iostream>
 #include<cstdlib>
 #include<time.h>
+#include<stdio.h>
 #include<conio.h>
 using namespace std;
 void delay(unsigned int mseconds)
@@ -10,129 +11,129 @@ void delay(unsigned int mseconds)
 }
 void print(){
 cout<<endl<<"Y";
-        delay(200);
+        delay(6);
         cout<<"o";
-        delay(200);
+        delay(6);
         cout<<"u";
-        delay(200);
+        delay(6);
         cout<<"r";
-        delay(200);
+        delay(6);
         cout<<" ";
-        delay(200);
+        delay(6);
         cout<<"T";
-        delay(200);
+        delay(6);
         cout<<"u";
-        delay(200);
+        delay(6);
         cout<<"r";
-        delay(200);
+        delay(6);
         cout<<"n";
-        delay(200);
+        delay(6);
         cout<<".";
-        delay(200);
+        delay(6);
          cout<<".";
-        delay(200);
+        delay(6);
          cout<<".";
-        delay(200);
+        delay(6);
          cout<<".";
-        delay(200);}
+        delay(6);}
 int counter1(int count){
      cout<<endl<<"C";
-        delay(200);
+        delay(6);
         cout<<"p";
-        delay(200);
+        delay(6);
         cout<<"u";
-        delay(200);
+        delay(6);
         cout<<"'s";
-        delay(200);
+        delay(6);
         cout<<" ";
-        delay(200);
+        delay(6);
         cout<<"T";
-        delay(200);
+        delay(6);
         cout<<"u";
-        delay(200);
+        delay(6);
         cout<<"r";
-        delay(200);
+        delay(6);
         cout<<"n";
-        delay(200);
+        delay(6);
         cout<<".";
-        delay(200);
+        delay(6);
          cout<<".";
-        delay(200);
+        delay(6);
          cout<<".";
-        delay(200);
+        delay(6);
          cout<<".";
-        delay(200);
-        delay(300);
+        delay(6);
+        delay(6);
         cout<<++count<<" ";
-        delay(300);
+        delay(6);
         cout<<++count<<" ";
-        delay(300);
+        delay(6);
         cout<<++count<<" ";
         return count;
 
 }
 int counter2(int count){
      cout<<endl<<"C";
-        delay(200);
+        delay(6);
         cout<<"p";
-        delay(200);
+        delay(6);
         cout<<"u";
-        delay(200);
+        delay(6);
         cout<<"'s";
-        delay(200);
+        delay(6);
         cout<<" ";
-        delay(200);
+        delay(6);
         cout<<"T";
-        delay(200);
+        delay(6);
         cout<<"u";
-        delay(200);
+        delay(6);
         cout<<"r";
-        delay(200);
+        delay(6);
         cout<<"n";
-        delay(200);
+        delay(6);
         cout<<".";
-        delay(200);
+        delay(6);
          cout<<".";
-        delay(200);
+        delay(6);
          cout<<".";
-        delay(200);
+        delay(6);
          cout<<".";
-        delay(200);
-        delay(300);
+        delay(6);
+        delay(6);
         cout<<++count<<" ";
-        delay(300);
+        delay(6);
         cout<<++count<<" ";
         return count;
 
 }
 int counter3(int count){
      cout<<endl<<"C";
-        delay(200);
+        delay(6);
         cout<<"p";
-        delay(200);
+        delay(6);
         cout<<"u";
-        delay(200);
+        delay(6);
         cout<<"'s";
-        delay(200);
+        delay(6);
         cout<<" ";
-        delay(200);
+        delay(6);
         cout<<"T";
-        delay(200);
+        delay(6);
         cout<<"u";
-        delay(200);
+        delay(6);
         cout<<"r";
-        delay(200);
+        delay(6);
         cout<<"n";
-        delay(200);
+        delay(6);
         cout<<".";
-        delay(200);
+        delay(6);
          cout<<".";
-        delay(200);
+        delay(6);
          cout<<".";
-        delay(200);
+        delay(6);
          cout<<".";
-        delay(200);
-        delay(300);
+        delay(6);
+        delay(6);
         cout<<++count<<" ";
         return count;
 
@@ -140,10 +141,24 @@ int counter3(int count){
 main(){
      char ch;
 
-    x:
-        int count =0,input;
 
-    cout<<" Press any character(min-> 1 , Max-> 3)";
+        int count =0,input;
+x:
+    count=0;
+        cout<<"Press 0 for user's turn first"<<endl;
+        cout<<"Pres 1 for Cpu's turn first"<<endl;
+        cin>>input;
+
+    cout<<" The first person must start at 1."<<endl<<"Each person may say one, two, or three numbers per turn,"<<endl ;
+    cout<<"and the numbers must be in counting order."<<endl;
+    cout<<"Each person must start with the number after"<<endl<<" the last one that the other person said."<<endl;
+    cout<<"For example, the first person can say '1', or '1, 2', or '1, 2, 3.' "<<endl;
+    cout<<"If the first person says '1, 2', then the second person could say "<<endl<<"'3' or '3, 4', or '3, 4, 5'"<<endl;
+    cout<<"Whoever says '20' wins the game."<<endl;
+if(input==0){
+
+cout<<"Now your turn";
+
 for(int i=0;i<3;i++){
  ch=getch();
  if(ch=='\r'){
@@ -151,7 +166,7 @@ for(int i=0;i<3;i++){
  }
 
     count++;
-    delay(300);
+    delay(6);
     cout<<count;
 }
 if(count==1){
@@ -174,7 +189,7 @@ for(int i=0;i<3;i++){
  }
 
     count++;
-    delay(300);
+    delay(6);
     cout<<" "<<count<<" ";
 }
 if(count==5){
@@ -196,7 +211,7 @@ for(int i=0;i<3;i++){
  }
 
     count++;
-    delay(300);
+    delay(6);
     cout<<count<<" ";
 }
 if(count==9){
@@ -219,7 +234,7 @@ for(int i=0;i<3;i++){
  }
 
     count++;
-    delay(300);
+    delay(6);
     cout<<count<<" ";
 }
 if(count==13){
@@ -242,7 +257,7 @@ for(int i=0;i<3;i++){
  }
 
     count++;
-    delay(300);
+    delay(6);
     cout<<count<<" ";
 }
 if(count==17){
@@ -261,8 +276,33 @@ print();
 ch=getch();
         cout<<"You Lost the game"<<endl<<"press 1 to try again";
         cin>>input;
-        if(input==1)
+
         goto x;
+}
+        if(input==1){
+            count=0;
+            count=(rand()%3)+1;
+            if(count==1){
+                cout<<count;
+            }if(count==2){
+            cout<<count-1;
+            delay(6);
+            cout<<count;
+            }
+            if(count==3){
+                cout<<count-2;
+                delay(6);
+                cout<<count-1;
+                delay(6);
+                cout<<count;
+            }
+
+
+
+
+
+
+        }
 
 
 
